@@ -134,6 +134,7 @@ const LoginSignupDialog = () => {
                       onChange={(e) => setSignupData({ ...signupData, password: e.target.value })}
                     />
                   </div>
+                  
                 </CardContent>
                 <CardFooter>
                   <Button disabled={loading} type="submit">
